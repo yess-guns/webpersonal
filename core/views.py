@@ -6,7 +6,7 @@ html_base = """
     <ul>
         <li><a href="/">Portada</a></li>
         <li><a href="/about-me/">Acerca de</a></li>
-        <li><a href="/porfolio">Portafolio</a></li>
+        <li><a href="/portfolio">Portafolio</a></li>
         <li><a href="/contact/">Contacto</a></li>
     </ul>
 """
@@ -17,8 +17,8 @@ def home(request):
 def about(request):
     return render(request, "core/about.html")
         
-def porfolio(request):
-    return render(request, "core/porfolio.html")
+def portfolio(request):
+    return render(request, "core/portfolio.html")
        
   
 def contact(request):
